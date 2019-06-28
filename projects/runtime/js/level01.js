@@ -23,12 +23,12 @@ var level01 = function (window) {
                 {type: 'sawblade',x:1600,y:groundY},
                 {type: 'sawblade',x:1900,y:groundY},
                 {type: 'sawblade',x:2200,y:groundY},
-                {type: 'chica face',x:550,y:320},
-                {type: 'chica face',x:850,y:320},
-                {type: 'chica face',x:1150,y:320},
-                {type: 'chica face',x:1450,y:320},
-                {type: 'chica face',x:1750,y:320},
-                {type: 'chica face',x:2050,y:320},
+                {type: 'chica face',x:550,y:groundY - 150},
+                {type: 'chica face',x:850,y:groundY - 150},
+                {type: 'chica face',x:1150,y:groundY - 150},
+                {type: 'chica face',x:1450,y:groundY - 150},
+                {type: 'chica face',x:1750,y:groundY - 150},
+                {type: 'chica face',x:2050,y:groundY - 150},
             ]
             
         };
@@ -132,7 +132,7 @@ var level01 = function (window) {
         }
     }
     
-  createReward(3000, 300);
+  createReward(3000, groundY - 200);
     
     
     // createChica(400, 300)
